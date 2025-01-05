@@ -1,0 +1,47 @@
+/* Style for the main application window */
+window {
+    background-color: #f7f7f7;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+/* Title label styling */
+label {
+    color: #0078D7;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+/* Button styling */
+button {
+    background-color: #0078D7;
+    color: #fff;
+    /* border: none; */
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+
+button:active {
+    background-color: #003f6b;
+}
+
+/* Grid and box spacing */
+grid, box {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Log view styling */
+textview {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
